@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 export default function RefsPage() {
   return (
     <>
-      <Header backHref="/" />
+      <Header backHref="/" showRepos />
       <main className="container">
         <Suspense fallback={<div className="empty">불러오는 중…</div>}>
           <RefLibrary />

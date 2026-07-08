@@ -71,13 +71,15 @@ a {
 }
 .head-actions {
   display: flex;
-  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
 }
 .repo-link {
   color: var(--text-soft);
   text-decoration: none;
   font-size: 13px;
-  padding: 6px 12px;
+  padding: 6px 11px;
   border: 1px solid var(--border);
   border-radius: 999px;
   background: var(--bg);
@@ -85,6 +87,15 @@ a {
 .repo-link:hover {
   color: var(--text);
   border-color: var(--text-soft);
+}
+.repo-link.external {
+  color: var(--accent);
+  border-color: var(--accent-soft);
+  background: var(--accent-soft);
+  font-weight: 600;
+}
+.repo-link.external:hover {
+  border-color: var(--accent);
 }
 .site-footer {
   margin: 40px 0 28px;
