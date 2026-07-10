@@ -28,6 +28,11 @@ export default function HomePage() {
             <span className="tile-title">자료</span>
             <span className="tile-sub">논문 · 코드 · 링크</span>
           </a>
+          <a className="tile" href="/meetings">
+            <span className="tile-emoji">📝</span>
+            <span className="tile-title">회의록</span>
+            <span className="tile-sub">미팅 · 논의 기록</span>
+          </a>
         </div>
 
         <div className="section-label">연구 갈래</div>
